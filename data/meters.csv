@@ -1,0 +1,6 @@
+meterId,location,customerType
+MTR-001,Bled,household
+MTR-002,Kranj,household
+MTR-003,Radovljica,small business
+MTR-004,Jesenice,household with heat pump
+MTR-005,Lesce,household with EV charger
