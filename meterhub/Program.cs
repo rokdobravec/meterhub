@@ -1,4 +1,3 @@
-// MeterHub — week 1: console app that reads smart-meter readings.
 using System.Globalization;
 
 var path = Path.Combine(AppContext.BaseDirectory, "data", "readings.csv");
@@ -14,7 +13,6 @@ Console.WriteLine($"MeterHub — reading {path}");
 var readings = new List<MeterReading>();
 var skipped = 0;
 
-// Skip the header line (meterId,timestamp,kwh).
 foreach (var line in File.ReadLines(path).Skip(1))
 {
     var parts = line.Split(',');
